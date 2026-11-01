@@ -1,0 +1,2266 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Surbhi Restaurant | A Royal Pure Veg Dining Experience in Navagam Dindoli, Surat</title>
+  <meta name="description" content="Taste the Royal Side of Surat at Surbhi Restaurant. Pure Vegetarian fine dining at Nilkanth Villa, Plot No.15, Mahaprabhu Nagar, Navagam Dindoli, Surat." />
+  <meta name="theme-color" content="#110D0A" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="restaurant.restaurant" />
+  <meta property="og:title" content="Surbhi Restaurant — Taste the Royal Side of Surat" />
+  <meta property="og:description" content="A Royal Pure Veg Dining Experience at Nilkanth Villa, Plot No.15, Mahaprabhu Nagar, Navagam Dindoli, Surat." />
+  <meta property="og:image" content="IMG_20261031_135910.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&family=Noto+Sans+Gujarati:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- LocalBusiness + Restaurant Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Restaurant", "LocalBusiness"],
+    "name": "Surbhi Restaurant",
+    "image": "IMG_20261031_135910.jpg",
+    "description": "A Royal Pure Veg Dining Experience in Navagam Dindoli, Surat.",
+    "telephone": "+917863018344",
+    "priceRange": "₹₹",
+    "servesCuisine": ["Indian", "Chinese", "Pure Vegetarian"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Nilkanth Villa, Plot No.15, Mahaprabhu Nagar, Navagam Dindoli",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "394210",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg-main: #110D0A;
+      --bg-surface: #17120D;
+      --bg-card: rgba(26, 19, 13, 0.88);
+      --text-main: #F6EFE4;
+      --text-muted: #B8ACA0;
+      --gold: #D4AF5A;
+      --gold-bright: #E8CB7A;
+      --border-gold: rgba(212, 175, 90, 0.25);
+      --veg-green: #22C55E;
+    }
+
+    html.light {
+      --bg-main: #F6EFE4;
+      --bg-surface: #EFE4D4;
+      --bg-card: rgba(255, 250, 242, 0.94);
+      --text-main: #1A120B;
+      --text-muted: #5E4735;
+      --gold: #A67C27;
+      --gold-bright: #C99E3E;
+      --border-gold: rgba(166, 124, 39, 0.32);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: 'Poppins', 'Noto Sans Gujarati', sans-serif;
+      overflow-x: hidden;
+      line-height: 1.5;
+      padding-bottom: 74px;
+      background-image:
+        radial-gradient(circle at 18% 10%, rgba(212, 175, 90, 0.08) 0%, transparent 45%),
+        radial-gradient(circle at 82% 55%, rgba(74, 44, 29, 0.35) 0%, transparent 55%);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      color: inherit;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .font-serif {
+      font-family: 'Playfair Display', 'Cinzel', 'Noto Sans Gujarati', serif;
+    }
+    .font-display {
+      font-family: 'Cinzel', 'Playfair Display', serif;
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 500;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', 'Cinzel', serif;
+      font-size: clamp(28px, 5vw, 46px);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      line-height: 1.12;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .gold-text {
+      color: var(--gold);
+    }
+
+    .editorial-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border-gold);
+      position: relative;
+    }
+
+    .corner-accent::before {
+      content: '';
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      width: 14px;
+      height: 14px;
+      border-top: 2px solid var(--gold);
+      border-left: 2px solid var(--gold);
+      pointer-events: none;
+    }
+
+    .corner-accent::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      right: -1px;
+      width: 14px;
+      height: 14px;
+      border-bottom: 2px solid var(--gold);
+      border-right: 2px solid var(--gold);
+      pointer-events: none;
+    }
+
+    .btn-gold {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(90deg, #D4AF5A 0%, #EBD185 50%, #C9A24B 100%);
+      color: #14100D;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 15px 24px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      box-shadow: 0 6px 22px rgba(201, 162, 75, 0.28);
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+    .btn-gold:hover {
+      filter: brightness(1.06);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: rgba(20, 16, 13, 0.75);
+      color: #F6EFE4;
+      border: 1px solid rgba(212, 175, 90, 0.42);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 13px 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: border-color 0.2s ease, background 0.2s ease;
+    }
+    .btn-outline:hover {
+      border-color: var(--gold);
+      background: rgba(212, 175, 90, 0.12);
+    }
+
+    .veg-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 13px;
+      height: 13px;
+      border: 1.5px solid var(--veg-green);
+      padding: 2px;
+      border-radius: 2px;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+    .veg-icon::after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: var(--veg-green);
+      display: block;
+    }
+
+    /* Intro Curtain Loader */
+    #intro-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      pointer-events: none;
+      transition: visibility 0.8s;
+    }
+    .curtain-left, .curtain-right {
+      width: 50%;
+      height: 100%;
+      background: #110D0A;
+      transition: transform 0.85s cubic-bezier(0.7, 0, 0.3, 1);
+    }
+    .curtain-left { border-right: 1px solid rgba(212, 175, 90, 0.3); }
+    .curtain-right { border-left: 1px solid rgba(212, 175, 90, 0.3); }
+    #intro-loader.open .curtain-left { transform: translateX(-100%); }
+    #intro-loader.open .curtain-right { transform: translateX(100%); }
+    .loader-center {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.45s ease;
+    }
+    #intro-loader.open .loader-center { opacity: 0; }
+
+    /* Sticky Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17, 13, 10, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(212, 175, 90, 0.16);
+      padding: 12px 0;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-title {
+      font-family: 'Cinzel', serif;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      color: #F6EFE4;
+      display: block;
+      line-height: 1;
+    }
+    .brand-sub {
+      font-size: 9px;
+      letter-spacing: 0.22em;
+      color: var(--gold);
+      text-transform: uppercase;
+      display: block;
+      margin-top: 4px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: var(--gold);
+    }
+    .icon-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--gold);
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4px;
+    }
+    #nav-drawer {
+      display: none;
+      padding-top: 14px;
+      margin-top: 12px;
+      border-top: 1px solid var(--border-gold);
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    #nav-drawer.active {
+      display: grid;
+    }
+    #nav-drawer a {
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 8px 10px;
+      border-radius: 2px;
+    }
+    #nav-drawer a:hover {
+      background: rgba(212, 175, 90, 0.12);
+      color: var(--gold);
+    }
+
+    /* Hero Section Adjusted for Surbhi Night Exterior Corner Building */
+    .hero {
+      position: relative;
+      min-height: 87vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 36px 0 24px;
+      border-bottom: 1px solid rgba(212, 175, 90, 0.2);
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      animation: kenBurns 24s ease-in-out infinite;
+    }
+    .hero-bg img, .hero-bg svg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 68% 35%; /* Keeps the lit Surbhi Restaurant facade & fairy lights visible on the right */
+    }
+    @keyframes kenBurns {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.07); }
+    }
+    /* Tailored vignette so left text is crisp while right fairy-light building glows through */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background:
+        linear-gradient(90deg, rgba(14,10,7,0.92) 0%, rgba(14,10,7,0.72) 48%, rgba(14,10,7,0.28) 100%),
+        linear-gradient(0deg, #110D0A 0%, rgba(17,13,10,0.15) 45%, rgba(17,13,10,0.55) 100%);
+    }
+    .pendant-lamp {
+      position: absolute;
+      top: 0;
+      right: 10%;
+      z-index: -1;
+      transform-origin: top center;
+      animation: swayLamp 5.5s ease-in-out infinite;
+      opacity: 0.88;
+    }
+    @keyframes swayLamp {
+      0%, 100% { transform: rotate(-2.5deg); }
+      50% { transform: rotate(2.5deg); }
+    }
+    .hero-photo-picker {
+      position: absolute;
+      top: 14px;
+      right: 16px;
+      z-index: 15;
+      background: rgba(17, 13, 10, 0.78);
+      border: 1px solid rgba(212, 175, 90, 0.45);
+      color: var(--gold);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 6px 10px;
+      border-radius: 2px;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+    }
+    .hero-photo-picker:hover {
+      background: rgba(212, 175, 90, 0.2);
+    }
+    .hero-eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .hero-eyebrow .line {
+      width: 26px;
+      height: 1px;
+      background: var(--gold);
+    }
+    .hero-title {
+      font-family: 'Playfair Display', 'Cinzel', serif;
+      font-size: clamp(42px, 9vw, 72px);
+      line-height: 1.05;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      text-shadow: 0 8px 28px rgba(0, 0, 0, 0.75);
+    }
+    .hero-subtitle {
+      margin-top: 18px;
+      font-size: 16px;
+      color: rgba(246, 239, 228, 0.95);
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+    }
+    .status-pill {
+      margin-top: 18px;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: rgba(20, 15, 10, 0.92);
+      border: 1px solid rgba(212, 175, 90, 0.4);
+      font-size: 12px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--veg-green);
+      box-shadow: 0 0 8px var(--veg-green);
+    }
+    .hero-ctas {
+      margin-top: 26px;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .hero-cta-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .hero-footer-bar {
+      margin-top: 36px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(212, 175, 90, 0.2);
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* About Section */
+    .pills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 22px 0;
+    }
+    .feature-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      background: var(--bg-card);
+      border: 1px solid var(--border-gold);
+    }
+    .about-collage {
+      position: relative;
+      margin-top: 24px;
+      padding-bottom: 64px;
+    }
+    .about-main-img {
+      width: 84%;
+      aspect-ratio: 4 / 5;
+      border: 1px solid var(--border-gold);
+      overflow: hidden;
+      background: #1C130C;
+    }
+    .about-sub-img {
+      width: 52%;
+      aspect-ratio: 4 / 5;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border: 2px solid rgba(212, 175, 90, 0.45);
+      overflow: hidden;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.75);
+      background: #1C130C;
+    }
+    .about-round-seal {
+      width: 98px;
+      height: 98px;
+      border-radius: 50%;
+      background: #140F0A;
+      border: 1px solid rgba(212, 175, 90, 0.65);
+      position: absolute;
+      left: 12px;
+      bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 9px;
+      letter-spacing: 0.18em;
+      line-height: 1.5;
+      color: var(--gold);
+      text-transform: uppercase;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+      z-index: 5;
+    }
+
+    /* Specials Track */
+    .specials-track {
+      display: flex;
+      gap: 16px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .specials-track::-webkit-scrollbar { display: none; }
+    .special-card {
+      min-width: 240px;
+      max-width: 260px;
+      scroll-snap-align: start;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+    .badge-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--gold);
+      color: #14100D;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      padding: 4px 8px;
+      text-transform: uppercase;
+      z-index: 5;
+    }
+
+    /* Offers Strip */
+    .offers-bar {
+      background: #17110C;
+      border-top: 1px solid var(--border-gold);
+      border-bottom: 1px solid var(--border-gold);
+      padding: 14px 0;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: none;
+    }
+    .offers-bar::-webkit-scrollbar { display: none; }
+
+    /* Menu Section */
+    .cat-tabs {
+      display: flex;
+      gap: 24px;
+      overflow-x: auto;
+      border-bottom: 1px solid rgba(212, 175, 90, 0.2);
+      margin-bottom: 18px;
+      scrollbar-width: none;
+    }
+    .cat-tabs::-webkit-scrollbar { display: none; }
+    .cat-tab {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      padding: 10px 2px 12px;
+      font-size: 13px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .cat-tab.active {
+      color: var(--gold);
+      border-bottom-color: var(--gold);
+      font-weight: 500;
+    }
+
+    .search-box {
+      position: relative;
+      margin-bottom: 12px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 12px 14px 12px 38px;
+      background: #16110C;
+      border: 1px solid var(--border-gold);
+      font-size: 13px;
+      color: var(--text-main);
+      outline: none;
+    }
+    .search-input:focus {
+      border-color: var(--gold);
+    }
+
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    .chip-btn {
+      padding: 8px 13px;
+      font-size: 12px;
+      background: #16110C;
+      border: 1px solid var(--border-gold);
+      color: var(--text-muted);
+      cursor: pointer;
+    }
+    .chip-btn.active {
+      border-color: var(--gold);
+      background: rgba(212, 175, 90, 0.18);
+      color: var(--gold);
+    }
+
+    .menu-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 16px 4px;
+      border-bottom: 1px solid rgba(212, 175, 90, 0.15);
+    }
+    .menu-thumb {
+      width: 84px;
+      height: 84px;
+      position: relative;
+      border: 1px solid var(--border-gold);
+      flex-shrink: 0;
+      overflow: hidden;
+      background: #1C130C;
+    }
+    .menu-info {
+      flex: 1;
+      min-width: 0;
+    }
+    .menu-name {
+      font-family: 'Playfair Display', 'Cinzel', serif;
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-main);
+    }
+    .menu-gu {
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 2px;
+    }
+    .menu-price {
+      font-family: 'Playfair Display', serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-top: 6px;
+    }
+    .menu-portion {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .menu-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      min-height: 78px;
+      flex-shrink: 0;
+    }
+    .add-btn {
+      padding: 7px 11px;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: #19130E;
+      border: 1px solid rgba(212, 175, 90, 0.42);
+      color: #F6EFE4;
+      cursor: pointer;
+    }
+    .add-btn:hover {
+      border-color: var(--gold);
+    }
+    .qty-control {
+      display: inline-flex;
+      align-items: center;
+      background: var(--gold);
+      color: #14100D;
+      font-weight: 700;
+      font-size: 12px;
+    }
+    .qty-control button {
+      background: none;
+      border: none;
+      color: #14100D;
+      padding: 5px 9px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    /* Gallery 2-Column Square Grid */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .gallery-item {
+      position: relative;
+      aspect-ratio: 1 / 1;
+      border: 1px solid var(--border-gold);
+      overflow: hidden;
+      cursor: pointer;
+      background: #1C130C;
+    }
+    .gallery-caption {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 28px 12px 10px;
+      background: linear-gradient(to top, rgba(0,0,0,0.88), transparent);
+      font-family: 'Playfair Display', 'Cinzel', serif;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #F6EFE4;
+      z-index: 4;
+    }
+
+    /* Form Controls */
+    .form-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 600px) {
+      .form-grid-2 { grid-template-columns: 1fr 1fr; }
+    }
+    .field-label {
+      display: block;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 6px;
+    }
+    .field-input {
+      width: 100%;
+      padding: 12px 14px;
+      background: #120E0A;
+      border: 1px solid rgba(212, 175, 90, 0.32);
+      font-size: 13px;
+      color: var(--text-main);
+      outline: none;
+    }
+    .field-input:focus {
+      border-color: var(--gold);
+    }
+
+    /* Payment Radio Option Cards */
+    .payment-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .payment-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 12px;
+      background: #120E0A;
+      border: 1px solid rgba(212, 175, 90, 0.32);
+      cursor: pointer;
+      font-size: 12px;
+      transition: all 0.2s ease;
+    }
+    .payment-option input[type="radio"] {
+      accent-color: var(--gold);
+    }
+    .payment-option.selected {
+      border-color: var(--gold);
+      background: rgba(212, 175, 90, 0.15);
+      color: var(--gold);
+      font-weight: 500;
+    }
+
+    /* Delivery Fee Notice Box */
+    .delivery-banner {
+      padding: 10px 12px;
+      background: rgba(212, 175, 90, 0.1);
+      border: 1px dashed rgba(212, 175, 90, 0.45);
+      font-size: 11px;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .delivery-banner.free {
+      background: rgba(34, 197, 94, 0.12);
+      border-color: rgba(34, 197, 94, 0.5);
+      color: #86EFAC;
+    }
+
+    /* Right-side Floating Action Stack */
+    .floating-right {
+      position: fixed;
+      right: 12px;
+      bottom: 84px;
+      z-index: 90;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .fab-circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(25, 19, 14, 0.92);
+      border: 1px solid rgba(212, 175, 90, 0.45);
+      color: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      position: relative;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+    }
+    .cart-badge {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      background: var(--gold);
+      color: #14100D;
+      font-size: 10px;
+      font-weight: 700;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Sticky Bottom Bar */
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 95;
+      background: rgba(17, 13, 10, 0.96);
+      backdrop-filter: blur(12px);
+      border-top: 1px solid rgba(212, 175, 90, 0.25);
+      padding: 8px 10px;
+    }
+    .bottom-bar-grid {
+      max-width: 480px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: center;
+    }
+    .bottom-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      font-size: 10px;
+      color: #F6EFE4;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    .bottom-item svg {
+      color: var(--gold);
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Modals */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: rgba(0, 0, 0, 0.86);
+      backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .modal-backdrop.open {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- =====================================================================
+       1. INTRO CURTAIN LOADER
+       ===================================================================== -->
+  <div id="intro-loader">
+    <div class="curtain-left"></div>
+    <div class="curtain-right"></div>
+    <div class="loader-center">
+      <svg width="86" height="86" viewBox="0 0 100 100" fill="none">
+        <path d="M50 5 C62 5, 68 15, 77 23 C85 32, 95 38, 95 50 C95 62, 85 68, 77 77 C68 85, 62 95, 50 95 C38 95, 32 85, 23 77 C15 68, 5 62, 5 50 C5 38, 15 32, 23 23 C32 15, 38 5, 50 5 Z" stroke="#D4AF5A" stroke-width="2.2" fill="#17110C"/>
+        <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" fill="#D4AF5A" font-family="Cinzel, serif" font-weight="700" font-size="30">SR</text>
+      </svg>
+      <span style="margin-top:12px; font-family:'Cinzel',serif; letter-spacing:0.32em; font-size:13px; color:#D4AF5A;">SURBHI</span>
+      <span style="margin-top:4px; letter-spacing:0.22em; font-size:9px; color:#B8ACA0;">PURE VEGETARIAN · SURAT</span>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       STICKY HEADER
+       ===================================================================== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#top" class="brand-wrap">
+          <svg width="38" height="38" viewBox="0 0 100 100" fill="none">
+            <path d="M50 5 C62 5, 68 15, 77 23 C85 32, 95 38, 95 50 C95 62, 85 68, 77 77 C68 85, 62 95, 50 95 C38 95, 32 85, 23 77 C15 68, 5 62, 5 50 C5 38, 15 32, 23 23 C32 15, 38 5, 50 5 Z" stroke="#D4AF5A" stroke-width="2.2" fill="#17110C"/>
+            <path d="M50 11 C60 11, 65 19, 73 27 C81 35, 89 40, 89 50 C89 60, 81 65, 73 73 C65 81, 60 89, 50 89 C40 89, 35 81, 27 73 C19 65, 11 60, 11 50 C11 40, 19 35, 27 27 C35 19, 40 11, 50 11 Z" stroke="#D4AF5A" stroke-width="0.8" stroke-opacity="0.55"/>
+            <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" fill="#D4AF5A" font-family="Cinzel, serif" font-weight="700" font-size="30">SR</text>
+          </svg>
+          <div>
+            <span class="brand-title">SURBHI</span>
+            <span class="brand-sub">PURE VEGETARIAN · SURAT</span>
+          </div>
+        </a>
+
+        <div class="header-actions">
+          <button class="icon-btn" id="lang-btn" title="Switch Language">ગુજ</button>
+          <button class="icon-btn" id="theme-btn" title="Toggle Dark/Light Theme" aria-label="Toggle Theme">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"></path>
+            </svg>
+          </button>
+          <button class="icon-btn" id="menu-toggle-btn" aria-label="Menu" style="color:#F6EFE4;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <nav id="nav-drawer">
+        <a href="#about">About</a>
+        <a href="#specials">Specials</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#timings">Timings & Info</a>
+        <a href="#reserve">Reserve a Table</a>
+        <a href="#visit">Visit Surbhi</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       2. HERO SECTION (WITH GIVEN SURBHI EXTERIOR NIGHT IMAGE)
+       ===================================================================== -->
+  <section class="hero" id="top">
+    <div class="hero-bg" id="hero-bg-container"></div>
+    <div class="hero-overlay"></div>
+
+    <!-- Optional Quick Picker so user can load IMG_20261031_135910.jpg from any folder -->
+    <label class="hero-photo-picker" title="Select your IMG_20261031_135910.jpg photo directly">
+      📷 Set Hero Photo
+      <input type="file" id="hero-file-input" accept="image/*" style="display:none;" />
+    </label>
+
+    <!-- Swaying Pendant Lamp -->
+    <div class="pendant-lamp">
+      <svg width="54" height="145" viewBox="0 0 54 145" fill="none">
+        <line x1="27" y1="0" x2="27" y2="68" stroke="#D4AF5A" stroke-width="1.5"/>
+        <path d="M14 86 C14 68, 40 68, 40 86 L45 108 L9 108 Z" fill="#2A1B12" stroke="#D4AF5A" stroke-width="1.5"/>
+        <circle cx="27" cy="112" r="6" fill="#FFF3C4"/>
+        <circle cx="27" cy="112" r="22" fill="#D4AF5A" opacity="0.28"/>
+      </svg>
+    </div>
+
+    <div class="container" style="width:100%; margin:auto;">
+      <div class="hero-eyebrow">
+        <span class="line"></span>
+        <span class="eyebrow" style="margin:0;">PURE VEGETARIAN · SURAT</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span style="display:block; color:var(--text-main);">TASTE THE</span>
+        <span style="display:block; color:var(--gold);">ROYAL SIDE</span>
+        <span style="display:block; color:var(--text-main);">OF SURAT</span>
+      </h1>
+
+      <p class="hero-subtitle" id="hero-sub">A Royal Pure Veg Dining Experience</p>
+
+      <div class="status-pill">
+        <span class="status-dot"></span>
+        <span class="live-status-text">Open Now · Closes at 11 PM</span>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#menu" class="btn-gold" style="width:100%;">
+          <span>VIEW MENU</span>
+          <span>→</span>
+        </a>
+        <div class="hero-cta-row">
+          <button type="button" class="btn-outline" onclick="handleOrderButtonClick()">ORDER ON WHATSAPP</button>
+          <a href="#reserve" class="btn-outline">RESERVE A TABLE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="width:100%;">
+      <div class="hero-footer-bar">
+        Navagam, Surat, Gujarat 394210 · Lunch 11 AM–4 PM · Dinner 6 PM–11 PM
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       3. ABOUT SECTION ("A TABLE FOR EVERY GATHERING")
+       ===================================================================== -->
+  <section id="about" style="padding: 64px 0;">
+    <div class="container">
+      <span class="eyebrow">A TABLE FOR EVERY GATHERING</span>
+      <h2 class="section-title">
+        <span>A WARMER WAY </span>
+        <span class="gold-text">TO DINE</span>
+      </h2>
+      <p style="font-size:14px; color:var(--text-muted); max-width:620px; line-height:1.7;">
+        At Surbhi, pure-vegetarian favourites meet a setting made for sharing. From bright refreshers and crisp starters to fragrant basmati classics, gather with family over plates made for conversation.
+      </p>
+
+      <div class="pills-row">
+        <div class="feature-pill"><span class="veg-icon"></span> <span>PURE VEGETARIAN</span></div>
+        <div class="feature-pill"><span class="gold-text">✦</span> <span>JAIN-FRIENDLY · ASK US</span></div>
+        <div class="feature-pill"><span class="gold-text">✦</span> <span>FAMILY-FRIENDLY</span></div>
+      </div>
+
+      <a href="#menu" style="display:inline-flex; align-items:center; gap:8px; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--gold); border-bottom:1px solid rgba(212,175,90,0.5); padding-bottom:4px;">
+        <span>VIEW MENU</span> <span>→</span>
+      </a>
+
+      <div class="about-collage">
+        <div class="about-main-img" id="about-img-ceiling"></div>
+        <div class="about-sub-img" id="about-img-chef"></div>
+        <div class="about-round-seal">PURE VEG<br>FAMILY<br>DINING</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       4. CHEF'S SPECIAL ("CHOSEN WITH CARE / THE MOST LOVED")
+       ===================================================================== -->
+  <section id="specials" style="padding: 56px 0; border-top: 1px solid rgba(212,175,90,0.15);">
+    <div class="container">
+      <div style="text-align:center; max-width:520px; margin:0 auto 30px;">
+        <span class="eyebrow">CHOSEN WITH CARE</span>
+        <h2 class="section-title">
+          <span>THE MOST </span>
+          <span class="gold-text">LOVED</span>
+        </h2>
+        <p style="font-size:13px; color:var(--text-muted);">A few guest favourites to start your Surbhi experience.</p>
+      </div>
+
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;">
+        <span class="eyebrow" style="margin:0;">FROM THE KITCHEN</span>
+        <div style="display:flex; gap:8px;">
+          <button type="button" onclick="scrollSpecials(-1)" style="width:32px; height:32px; border-radius:50%; border:1px solid var(--border-gold); background:none; color:var(--gold); cursor:pointer;">‹</button>
+          <button type="button" onclick="scrollSpecials(1)" style="width:32px; height:32px; border-radius:50%; border:1px solid var(--border-gold); background:none; color:var(--gold); cursor:pointer;">›</button>
+        </div>
+      </div>
+
+      <div class="specials-track" id="specials-container"></div>
+
+      <div style="text-align:center; margin-top:24px;">
+        <a href="#menu" class="btn-gold"><span>VIEW MENU</span> <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       5. OFFERS STRIP
+       ===================================================================== -->
+  <div class="offers-bar">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:28px; font-size:12px;">
+      <div><strong class="font-serif gold-text" style="letter-spacing:0.14em;">FREE DELIVERY ABOVE ₹499</strong> <span class="gold-text">✦</span> <span style="color:var(--text-muted);">₹40 delivery charge on orders below ₹499</span></div>
+      <div><strong class="font-serif gold-text" style="letter-spacing:0.14em;">FAMILY COMBO</strong> <span class="gold-text">✦</span> <span style="color:var(--text-muted);">Ask the restaurant while ordering</span></div>
+      <div><strong class="font-serif gold-text" style="letter-spacing:0.14em;">FREE PAPAD ON DINNER ORDERS</strong></div>
+      <a href="#menu" style="font-size:11px; letter-spacing:0.16em; color:var(--gold); text-decoration:underline;">ORDER NOW</a>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       6. FULL INTERACTIVE MENU
+       ===================================================================== -->
+  <section id="menu" style="padding: 64px 0;">
+    <div class="container">
+      <div style="text-align:center; max-width:580px; margin:0 auto 28px;">
+        <span class="eyebrow">PURE VEGETARIAN MENU</span>
+        <h2 class="section-title">
+          <span>EXPLORE THE </span>
+          <span class="gold-text">MENU</span>
+        </h2>
+        <p style="font-size:13px; color:var(--text-muted);">
+          From tandoor starters and comforting dals to lively Indo-Chinese favourites, find your next favourite.
+        </p>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="cat-tabs" id="category-tabs"></div>
+
+      <!-- Search Input -->
+      <div class="search-box">
+        <span style="position:absolute; left:12px; top:50%; transform:translateY(-50%); font-size:13px; opacity:0.6;">🔍</span>
+        <input type="text" id="menu-search" class="search-input" placeholder="Search the menu" />
+      </div>
+
+      <!-- Sort & Quick Chips -->
+      <div class="filter-bar">
+        <div class="chip-btn" style="display:inline-flex; align-items:center; gap:6px;">
+          <span class="gold-text">⇅</span>
+          <select id="menu-sort" style="background:transparent; border:none; outline:none; font-size:12px; color:var(--text-main);">
+            <option value="asc" style="background:#16110C;">Price: low to high</option>
+            <option value="desc" style="background:#16110C;">Price: high to low</option>
+            <option value="default" style="background:#16110C;">Featured order</option>
+          </select>
+        </div>
+        <button type="button" class="chip-btn" id="chip-under100">Under ₹100</button>
+        <button type="button" class="chip-btn" id="chip-bestseller">Bestsellers</button>
+        <button type="button" class="chip-btn" id="chip-jain">Jain</button>
+      </div>
+
+      <!-- Menu Rows Container -->
+      <div id="menu-list" style="border-top: 1px solid rgba(212,175,90,0.15);"></div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       7. GALLERY ("CAPTURE THE VIBE")
+       ===================================================================== -->
+  <section id="gallery" style="padding: 56px 0; border-top: 1px solid rgba(212,175,90,0.15);">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:28px;">
+        <span class="eyebrow">CAPTURE THE VIBE</span>
+        <h2 class="section-title">
+          <span>FROM OUR </span>
+          <span class="gold-text">TABLES</span>
+        </h2>
+      </div>
+
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       8. GUEST STORIES
+       ===================================================================== -->
+  <section style="padding: 48px 0;">
+    <div class="container">
+      <div class="editorial-card corner-accent" style="padding: 28px 24px;">
+        <div class="font-serif gold-text" style="font-size:32px; line-height:1; margin-bottom:10px;">“</div>
+        <h3 class="font-serif" id="story-title" style="font-size:20px; text-transform:uppercase; margin-bottom:8px;">
+          WE'D LOVE TO HEAR ABOUT YOUR VISIT.
+        </h3>
+        <p id="story-text" style="font-size:13px; color:var(--text-muted); margin-bottom:20px;">
+          Add verified guest reviews here, or share your experience on Google after your meal at Surbhi Restaurant.
+        </p>
+        <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; padding-top:14px; border-top:1px solid rgba(212,175,90,0.15);">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <button type="button" onclick="changeStory(-1)" style="width:30px; height:30px; border:1px solid var(--border-gold); background:none; color:var(--gold); cursor:pointer;">‹</button>
+            <button type="button" onclick="changeStory(1)" style="width:30px; height:30px; border:1px solid var(--border-gold); background:none; color:var(--gold); cursor:pointer;">›</button>
+            <span style="font-size:12px; color:var(--text-muted); margin-left:6px;">Guest stories</span>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Surbhi+Restaurant+Navagam+Dindoli+Surat" target="_blank" rel="noreferrer" class="btn-gold" style="padding:10px 18px; font-size:11px;">
+            FIND US ON GOOGLE ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       9. TIMINGS & INFO
+       ===================================================================== -->
+  <section id="timings" style="padding: 56px 0;">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:28px;">
+        <span class="eyebrow">PLAN YOUR VISIT</span>
+        <h2 class="section-title">
+          <span>TIMINGS & </span>
+          <span class="gold-text">INFO</span>
+        </h2>
+      </div>
+
+      <div class="editorial-card corner-accent" style="padding: 26px 24px; margin-bottom:14px;">
+        <h3 class="font-serif" style="font-size:18px; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:18px;">
+          COME BY FOR A MEAL
+        </h3>
+        <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:12px;">
+          <span>Lunch</span>
+          <span class="gold-text" style="font-weight:500;">11:00 AM – 4:00 PM</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:13px; padding-bottom:16px; border-bottom:1px solid rgba(212,175,90,0.15); margin-bottom:16px;">
+          <span>Dinner</span>
+          <span class="gold-text" style="font-weight:500;">6:00 PM – 11:00 PM</span>
+        </div>
+        <div class="status-pill" style="margin:0;">
+          <span class="status-dot"></span>
+          <span class="live-status-text">Open Now · Closes at 11 PM</span>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div class="editorial-card corner-accent" style="padding:18px;">
+          <div class="gold-text" style="margin-bottom:6px;">✦</div>
+          <h4 class="font-serif" style="font-size:13px; text-transform:uppercase; margin-bottom:4px;">FAMILY FRIENDLY</h4>
+          <p style="font-size:11px; color:var(--text-muted);">Comfortable dining for families and friends.</p>
+        </div>
+        <div class="editorial-card corner-accent" style="padding:18px;">
+          <div class="gold-text" style="margin-bottom:6px;">✦</div>
+          <h4 class="font-serif" style="font-size:13px; text-transform:uppercase; margin-bottom:4px;">PURE VEG DINING</h4>
+          <p style="font-size:11px; color:var(--text-muted);">A fully vegetarian dining experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       10. RESERVE A TABLE & 11. PLEASE NOTE
+       ===================================================================== -->
+  <section id="reserve" style="padding: 56px 0;">
+    <div class="container">
+      <div class="editorial-card corner-accent" style="padding: 28px 24px;">
+        <span class="eyebrow">TABLE REQUEST</span>
+        <h2 class="section-title" style="font-size:28px;">RESERVE A TABLE</h2>
+        <p style="font-size:12px; color:var(--text-muted); margin-bottom:20px;">
+          Send your preferred time and party size. We'll open WhatsApp with your request so our team can confirm availability.
+        </p>
+
+        <form id="reserve-form" style="display:flex; flex-direction:column; gap:14px;">
+          <div class="form-grid-2">
+            <div>
+              <label class="field-label">GUEST NAME</label>
+              <input type="text" id="res-name" class="field-input" placeholder="Full name" required />
+            </div>
+            <div>
+              <label class="field-label">PHONE NUMBER</label>
+              <input type="tel" id="res-phone" class="field-input" value="+91 " required />
+            </div>
+          </div>
+
+          <div class="form-grid-2">
+            <div>
+              <label class="field-label">DATE</label>
+              <input type="date" id="res-date" class="field-input" />
+            </div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+              <div>
+                <label class="field-label">GUESTS</label>
+                <select id="res-guests" class="field-input">
+                  <option>2 guests</option>
+                  <option>4 guests</option>
+                  <option>6 guests</option>
+                  <option>8+ guests</option>
+                </select>
+              </div>
+              <div>
+                <label class="field-label">TIME</label>
+                <select id="res-time" class="field-input">
+                  <option value="">Choose a time</option>
+                  <option>12:30 PM</option>
+                  <option>1:30 PM</option>
+                  <option>7:30 PM</option>
+                  <option>8:30 PM</option>
+                  <option>9:30 PM</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-gold" style="width:100%; margin-top:6px;">REQUEST ON WHATSAPP</button>
+          <p style="font-size:11px; color:var(--text-muted); text-align:center;">
+            Your request is sent to WhatsApp for confirmation. No booking is stored on this website.
+          </p>
+        </form>
+      </div>
+
+      <!-- Please Note Collapsible -->
+      <div class="editorial-card" style="margin-top:18px;">
+        <button type="button" id="note-toggle" style="width:100%; padding:16px 20px; background:none; border:none; display:flex; align-items:center; justify-content:space-between; cursor:pointer;">
+          <span class="font-serif" style="font-size:13px; letter-spacing:0.18em; text-transform:uppercase;">PLEASE NOTE</span>
+          <span class="gold-text" id="note-arrow">▾</span>
+        </button>
+        <ul id="note-body" style="display:none; padding:0 24px 18px 36px; font-size:12px; color:var(--text-muted); line-height:1.8;">
+          <li>Order once placed cannot be cancelled.</li>
+          <li>Allow minimum 15 minutes after ordering.</li>
+          <li>Items served subject to availability.</li>
+          <li>Outside food and liquor not allowed.</li>
+          <li>Alcohol consumption strictly prohibited.</li>
+          <li>Taxes and rates may change without notice.</li>
+          <li>Management not liable for inconvenience caused by acts beyond control.</li>
+          <li>Please take care of your valuables.</li>
+        </ul>
+      </div>
+
+      <div style="text-align:center; margin-top:22px;">
+        <button type="button" class="btn-gold" onclick="handleOrderButtonClick()">ORDER ON WHATSAPP →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       12. VISIT SURBHI (LOCATION, QR & GOOGLE MAP)
+       ===================================================================== -->
+  <section id="visit" style="padding: 56px 0; border-top: 1px solid rgba(212,175,90,0.15);">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:28px;">
+        <span class="eyebrow">FIND YOUR WAY TO US</span>
+        <h2 class="section-title">
+          <span>VISIT </span>
+          <span class="gold-text">SURBHI</span>
+        </h2>
+        <p style="font-size:13px; color:var(--text-muted);">We look forward to welcoming you.</p>
+      </div>
+
+      <div class="editorial-card corner-accent" style="padding: 26px 22px; display:flex; flex-direction:column; gap:20px;">
+        <div>
+          <span class="eyebrow" style="margin-bottom:4px;">📍 LOCATION</span>
+          <p style="font-size:13px;">Nilkanth Villa, Plot No.15, Mahaprabhu Nagar, Navagam Dindoli, Navagam, Surat, Gujarat 394210</p>
+        </div>
+
+        <div>
+          <span class="eyebrow" style="margin-bottom:4px;">📞 PARCEL INQUIRY</span>
+          <a href="tel:+917863018344" style="font-size:15px; font-weight:500;">+91 78630 18344</a>
+        </div>
+
+        <div>
+          <span class="eyebrow" style="margin-bottom:4px;">🕒 TIMINGS & INFO</span>
+          <p style="font-size:13px;">Lunch: 11:00 AM to 4:00 PM</p>
+          <p style="font-size:13px;">Dinner: 6:00 PM to 11:00 PM</p>
+        </div>
+
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Nilkanth+Villa+Plot+No+15+Mahaprabhu+Nagar+Navagam+Dindoli+Surat+Gujarat+394210" target="_blank" rel="noreferrer" class="btn-gold" style="padding:10px 16px; font-size:11px;">GET DIRECTIONS ↗</a>
+          <a href="tel:+917863018344" class="btn-outline" style="padding:10px 14px;">📞 CALL</a>
+          <button type="button" onclick="handleOrderButtonClick()" class="btn-outline" style="padding:10px 14px;">WHATSAPP</button>
+          <a href="https://www.google.com/maps/search/?api=1&query=Surbhi+Restaurant+Navagam+Dindoli+Surat" target="_blank" rel="noreferrer" class="btn-outline" style="padding:10px 14px;">FIND US ON GOOGLE ↗</a>
+        </div>
+
+        <div class="form-grid-2" style="padding-top:12px; border-top:1px solid rgba(212,175,90,0.15);">
+          <div style="display:flex; align-items:center; gap:14px; padding:12px; background:#120D0A; border:1px solid var(--border-gold);">
+            <div style="width:68px; height:68px; background:#fff; padding:6px; flex-shrink:0;">
+              <svg viewBox="0 0 32 32" width="100%" height="100%" fill="#000"><path d="M2 2h10v10H2V2zm2 2v6h6V4H4zm2 2h2v2H6V6zm14-4h10v10H20V2zm2 2v6h6V4h-6zm2 2h2v2h-2V6zM2 20h10v10H2V20zm2 2v6h6v-6H4zm2 2h2v2H6v-2zm10-14h4v4h-4V8zm6 6h4v4h-4v-4zm-6 6h4v8h-4v-8zm8 2h6v6h-6v-6z"/></svg>
+            </div>
+            <div>
+              <strong style="font-size:12px; display:block;">Scan for location</strong>
+              <span style="font-size:11px; color:var(--text-muted);">Open our address in Google Maps.</span>
+            </div>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:14px; padding:12px; background:#120D0A; border:1px solid var(--border-gold);">
+            <div style="width:68px; height:68px; background:#fff; padding:6px; flex-shrink:0;">
+              <svg viewBox="0 0 32 32" width="100%" height="100%" fill="#000"><path d="M2 2h10v10H2V2zm2 2v6h6V4H4zm2 2h2v2H6V6zm14-4h10v10H20V2zm2 2v6h6V4h-6zm2 2h2v2h-2V6zM2 20h10v10H2V20zm2 2v6h6v-6H4zm2 2h2v2H6v-2zm10-20h2v4h-2V4zm0 6h2v4h-2v-4zm-14 6h4v2H2v-2zm6 0h6v2H8v-2zm8-2h4v4h-4v-4zm6 2h8v2h-8v-2z"/></svg>
+            </div>
+            <div>
+              <strong style="font-size:12px; display:block;">Scan to open the menu</strong>
+              <span style="font-size:11px; color:var(--text-muted);">Browse all pure-veg dishes at your table.</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="height:250px; border:1px solid var(--border-gold); overflow:hidden;">
+          <iframe
+            title="Surbhi Restaurant Map"
+            src="https://maps.google.com/maps?q=Nilkanth%20Villa,%20Plot%20No.15,%20Mahaprabhu%20Nagar,%20Navagam%20Dindoli,%20Surat,%20Gujarat%20394210&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       13. FOOTER
+       ===================================================================== -->
+  <footer style="background:#0E0A07; border-top:1px solid rgba(212,175,90,0.2); padding: 48px 0 36px;">
+    <div class="container">
+      <div class="brand-wrap" style="margin-bottom:12px;">
+        <svg width="34" height="34" viewBox="0 0 100 100" fill="none">
+          <path d="M50 5 C62 5, 68 15, 77 23 C85 32, 95 38, 95 50 C95 62, 85 68, 77 77 C68 85, 62 95, 50 95 C38 95, 32 85, 23 77 C15 68, 5 62, 5 50 C5 38, 15 32, 23 23 C32 15, 38 5, 50 5 Z" stroke="#D4AF5A" stroke-width="2.2" fill="#17110C"/>
+          <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" fill="#D4AF5A" font-family="Cinzel, serif" font-weight="700" font-size="30">SR</text>
+        </svg>
+        <div>
+          <span class="brand-title">SURBHI</span>
+          <span class="brand-sub">PURE VEGETARIAN · SURAT</span>
+        </div>
+      </div>
+
+      <p style="font-size:12px; color:var(--text-muted); margin-bottom:14px;">
+        A royal pure-vegetarian dining experience in Navagam Dindoli, Surat.
+      </p>
+
+      <div style="display:inline-flex; align-items:center; gap:8px; padding:6px 12px; border:1px solid var(--border-gold); font-size:11px; margin-bottom:24px;">
+        <span class="veg-icon"></span> <span>Pure Vegetarian</span>
+      </div>
+
+      <div class="form-grid-2" style="padding-top:20px; border-top:1px solid rgba(212,175,90,0.15); font-size:12px; color:var(--text-muted);">
+        <div>
+          <span class="eyebrow">QUICK LINKS</span>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#specials">Specials</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reserve">Reserve a Table</a>
+            <a href="#visit">Get Directions</a>
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow">VISIT</span>
+          <p style="margin-bottom:6px;">Nilkanth Villa, Plot No.15, Mahaprabhu Nagar, Navagam Dindoli, Navagam, Surat, Gujarat 394210</p>
+          <p style="color:var(--text-main); font-weight:500; margin-bottom:6px;">+91 78630 18344</p>
+          <p>Lunch 11:00 AM–4:00 PM · Dinner 6:00 PM–11:00 PM</p>
+          <p style="font-size:11px; opacity:0.7; margin-top:4px;">FSSAI details to be added</p>
+        </div>
+      </div>
+
+      <div style="margin-top:24px; padding-top:16px; border-top:1px solid rgba(212,175,90,0.15); display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; font-size:11px; color:var(--text-muted);">
+        <span>© 2026 Surbhi Restaurant, Surat</span>
+        <span>✦ Hygiene matters · Google ↗ · Instagram profile to be added</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       RIGHT VERTICAL FLOATING ICONS
+       ===================================================================== -->
+  <div class="floating-right">
+    <a href="#visit" class="fab-circle" title="Location">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.686-7-11a7 7 0 1114 0c0 5.314-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+    </a>
+    <button type="button" class="fab-circle" onclick="openCartModal()" title="View Cart & Checkout">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+      <span class="cart-badge" id="fab-cart-count" style="display:none;">0</span>
+    </button>
+    <a href="tel:+917863018344" class="fab-circle" title="Call">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    </a>
+  </div>
+
+  <!-- =====================================================================
+       STICKY BOTTOM BAR
+       ===================================================================== -->
+  <div class="bottom-bar">
+    <div class="bottom-bar-grid">
+      <a href="tel:+917863018344" class="bottom-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        <span>Call</span>
+      </a>
+      <button type="button" class="bottom-item" onclick="openCartModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+        <span id="bottom-wa-label">WhatsApp</span>
+      </button>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Nilkanth+Villa+Plot+No+15+Mahaprabhu+Nagar+Navagam+Dindoli+Surat+Gujarat+394210" target="_blank" rel="noreferrer" class="bottom-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.686-7-11a7 7 0 1114 0c0 5.314-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Get Directions</span>
+      </a>
+      <a href="#reserve" class="bottom-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <span>Reserve</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       2-STEP ORDER CART & CHECKOUT MODAL
+       ===================================================================== -->
+  <div class="modal-backdrop" id="cart-modal" onclick="closeCartModal()">
+    <div class="editorial-card corner-accent" style="width:100%; max-width:450px; padding:22px; max-height:92vh; overflow-y:auto;" onclick="event.stopPropagation()">
+
+      <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:12px; border-bottom:1px solid var(--border-gold);">
+        <div>
+          <span class="eyebrow" id="modal-step-eyebrow" style="margin-bottom:2px; font-size:9px;">STEP 1 OF 2 · REVIEW TRAY</span>
+          <h3 class="font-serif gold-text" id="modal-step-title" style="font-size:18px; text-transform:uppercase;">YOUR ORDER CART</h3>
+        </div>
+        <button type="button" onclick="closeCartModal()" style="background:none; border:none; color:var(--text-muted); cursor:pointer; font-size:12px;">CLOSE ✕</button>
+      </div>
+
+      <!-- STEP 1: CART VIEW -->
+      <div id="cart-step-1">
+        <div id="cart-items-body" style="max-height:44vh; overflow-y:auto; margin:14px 0;"></div>
+
+        <div id="cart-step-1-footer" style="border-top:1px solid var(--border-gold); padding-top:14px;">
+          <div id="cart-delivery-banner" class="delivery-banner"></div>
+
+          <div style="display:flex; justify-content:space-between; font-size:12px; color:var(--text-muted); margin-bottom:6px;">
+            <span>Items Subtotal</span>
+            <span id="cart-subtotal-price">₹0</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:12px; color:var(--text-muted); margin-bottom:10px;">
+            <span>Delivery Charge (Free on ₹499+)</span>
+            <span id="cart-delivery-price">₹40</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center; padding-top:10px; border-top:1px solid rgba(212,175,90,0.18); margin-bottom:16px;">
+            <span style="font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.08em;">Total Payable</span>
+            <strong class="font-serif gold-text" id="cart-grand-total" style="font-size:20px;">₹0</strong>
+          </div>
+
+          <button type="button" class="btn-gold" style="width:100%;" onclick="goToCheckoutStep()">
+            <span>PROCEED TO CHECKOUT</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 2: CHECKOUT DETAILS FORM -->
+      <div id="cart-step-2" style="display:none; padding-top:14px;">
+        <form id="checkout-form" style="display:flex; flex-direction:column; gap:14px;">
+          <div>
+            <label class="field-label">YOUR FULL NAME *</label>
+            <input type="text" id="chk-name" class="field-input" placeholder="Enter your full name" required />
+          </div>
+
+          <div>
+            <label class="field-label">PHONE NUMBER (OPTIONAL)</label>
+            <input type="tel" id="chk-phone" class="field-input" placeholder="+91 98XXX XXXXX" />
+          </div>
+
+          <div>
+            <label class="field-label">COMPLETE DELIVERY ADDRESS *</label>
+            <textarea id="chk-address" rows="3" class="field-input" placeholder="House/Flat No., Building, Society, Landmark, Navagam Dindoli, Surat" required style="resize:vertical;"></textarea>
+          </div>
+
+          <div>
+            <label class="field-label">MODE OF PAYMENT *</label>
+            <div class="payment-grid">
+              <label class="payment-option selected" id="pay-label-cod" onclick="selectPaymentMode('Cash on Delivery (COD)')">
+                <input type="radio" name="payment_mode" value="Cash on Delivery (COD)" checked />
+                <span>💵 Cash on Delivery</span>
+              </label>
+              <label class="payment-option" id="pay-label-upi" onclick="selectPaymentMode('UPI / Online Payment')">
+                <input type="radio" name="payment_mode" value="UPI / Online Payment" />
+                <span>📱 UPI / Online</span>
+              </label>
+            </div>
+          </div>
+
+          <div style="background:#120D0A; border:1px solid var(--border-gold); padding:12px 14px; font-size:12px;">
+            <div style="display:flex; justify-content:space-between; color:var(--text-muted); margin-bottom:4px;">
+              <span>Items Subtotal (<span id="chk-item-count">0</span> items)</span>
+              <span id="chk-subtotal">₹0</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; color:var(--text-muted); margin-bottom:8px;">
+              <span>Delivery Charge</span>
+              <span id="chk-delivery">₹40</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; font-size:14px; font-weight:600; color:var(--gold); padding-top:8px; border-top:1px solid rgba(212,175,90,0.18);">
+              <span>Grand Total</span>
+              <span class="font-serif" id="chk-grand-total" style="font-size:17px;">₹0</span>
+            </div>
+          </div>
+
+          <div style="display:grid; grid-template-columns:auto 1fr; gap:10px; margin-top:4px;">
+            <button type="button" class="btn-outline" onclick="backToCartStep()" style="padding:13px 16px;">
+              ← BACK
+            </button>
+            <button type="submit" class="btn-gold" style="width:100%;">
+              <span>ORDER ON WHATSAPP</span>
+              <span>→</span>
+            </button>
+          </div>
+          <p style="font-size:10px; color:var(--text-muted); text-align:center;">
+            Clicking above opens WhatsApp with your complete prefilled order & address—just tap Send!
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       PURE VANILLA JAVASCRIPT + AI IMAGE GENERATOR ENGINE
+       ===================================================================== -->
+  <script>
+    const PHONE_RAW = "917863018344";
+    const FREE_DELIVERY_THRESHOLD = 499;
+    const DELIVERY_CHARGE_AMOUNT = 40;
+
+    // Dedicated AI Dark-Luxury Food & Interior Prompts for every image file name
+    const AI_IMAGE_PROMPTS = {
+      "hero-exterior.jpg": "luxury modern Indian restaurant corner building exterior at night covered in warm golden fairy string lights, glowing Surbhi Restaurant sign, glass windows, dark night sky, architectural photography",
+      "interior-ceiling.jpg": "luxury Indian fine dining restaurant interior with warm golden crystal chandeliers, ornate jali ceiling, dark chocolate brown and gold booth seating, moody warm lighting",
+      "interior-seating.jpg": "plush dark brown and gold luxury restaurant booth seating, warm ambient table lamps, fine dining Indian restaurant interior",
+      "about-chef.jpg": "Indian master chef in dark uniform garnishing a royal vegetarian dish on a black ceramic plate under warm golden spotlight, shallow depth of field",
+      "surbhi-pulav.jpg": "royal Kashmiri Kaju Paneer Pulav basmati rice in a handcrafted dark bronze bowl garnished with roasted cashews, green peas, saffron and coriander, dark luxury food photography, warm golden lighting",
+      "paneer-tikka.jpg": "charcoal grilled Paneer Tikka Dry cubes with charred edges, bell peppers, mint chutney on a dark slate platter, warm golden rim lighting, luxury Indian food photography",
+      "hara-bhara-kabab.jpg": "crispy green Veg Hara Bhara Kabab patties topped with cashew halves, served with mint chutney on a dark luxury plate, warm golden lighting",
+      "veg-biryani.jpg": "steaming Veg Hyderabadi Dum Biryani in a dark clay handi pot topped with caramelized onions, saffron basmati rice, mint leaves and raita, dark luxury food photography",
+      "sp-lassi.jpg": "thick creamy Royal Saffron Malai Lassi in a tall glass and brass tumbler topped with chopped pistachios, almonds and saffron strands, dark luxury food photography",
+      "papad-raita.jpg": "crispy golden Masala Papad topped with diced tomatoes, onions, sev and coriander alongside creamy Boondi Raita in dark bowls, luxury Indian food photography",
+      "soup.jpg": "piping hot Cream of Tomato and Veg Manchow soup in a dark ceramic bowl garnished with crispy noodles, cream swirl and fresh herbs, dark luxury lighting",
+      "veg-manchurian.jpg": "glossy Indo-Chinese Veg Manchurian Dry balls tossed in dark soy garlic glaze with spring onions in a black bowl, dark luxury food photography",
+      "hakka-noodles.jpg": "wok tossed Veg Hakka Noodles with julienned bell peppers, cabbage and spring onions in a dark ceramic bowl, warm golden lighting",
+      "fried-rice.jpg": "aromatic Indo-Chinese Veg Schezwan Fried Rice with fine vegetables and spring onion greens in a dark luxury bowl, warm lighting",
+      "dal-tadka.jpg": "rich yellow Dal Tadka tempered with cumin, dried red chillies, garlic and pure ghee in a dark brass bowl, luxury Indian food photography",
+      "thali-spread.jpg": "grand Royal Indian Pure Vegetarian Thali feast spread on a brass platter with paneer curry, dal tadka, surbhi pulav, butter naan, raita, papad and sweet lassi, dark luxury lighting"
+    };
+
+    const MENU_ITEMS = [
+      { id: "app-1", category: "Appetizer", name: "SP. LASSI", nameGu: "સ્પેશિયલ લસ્સી", price: 80, image: "sp-lassi.jpg", bestseller: true, jain: true },
+      { id: "app-2", category: "Appetizer", name: "SWEET LASSI", nameGu: "મીઠી લસ્સી", price: 60, image: "sp-lassi.jpg", jain: true },
+      { id: "app-3", category: "Appetizer", name: "BUTTER MILK", nameGu: "છાશ", price: 20, image: "sp-lassi.jpg", jain: true },
+      { id: "app-4", category: "Appetizer", name: "MASALA BUTTER MILK", nameGu: "મસાલા છાશ", price: 30, image: "sp-lassi.jpg", jain: true },
+      { id: "app-5", category: "Appetizer", name: "FRESH LEMON WATER", nameGu: "ફ્રેશ લીંબુ પાણી", price: 40, image: "sp-lassi.jpg", jain: true },
+      { id: "app-6", category: "Appetizer", name: "SOFT DRINKS", nameGu: "સોફ્ટ ડ્રિંક્સ", price: null, priceLabel: "MRP", image: "sp-lassi.jpg", jain: true },
+      { id: "app-7", category: "Appetizer", name: "MINERAL WATER", nameGu: "મિનરલ વોટર", price: null, priceLabel: "MRP", image: "sp-lassi.jpg", jain: true },
+
+      { id: "sal-1", category: "Salad/Papad/Raita", name: "GREEN SALAD", nameGu: "ગ્રીન સલાડ", price: 60, image: "papad-raita.jpg", jain: false },
+      { id: "sal-2", category: "Salad/Papad/Raita", name: "TOMATO SALAD", nameGu: "ટામેટા સલાડ", price: 50, image: "papad-raita.jpg", jain: true },
+      { id: "sal-3", category: "Salad/Papad/Raita", name: "VEG RAITA", nameGu: "વેજ રાયતું", price: 60, image: "papad-raita.jpg", jain: true },
+      { id: "sal-4", category: "Salad/Papad/Raita", name: "BOONDI RAITA", nameGu: "બુંદી રાયતું", price: 70, image: "papad-raita.jpg", jain: true },
+      { id: "sal-5", category: "Salad/Papad/Raita", name: "PINEAPPLE RAITA (SWEET)", nameGu: "પાઈનેપલ રાયતું (મીઠું)", price: 70, image: "papad-raita.jpg", jain: true },
+      { id: "sal-6", category: "Salad/Papad/Raita", name: "DAHI (CURD)", nameGu: "દહીં", price: 50, image: "papad-raita.jpg", jain: true },
+      { id: "sal-7", category: "Salad/Papad/Raita", name: "ROASTED PAPAD", nameGu: "રોસ્ટેડ પાપડ", price: 15, image: "papad-raita.jpg", jain: true },
+      { id: "sal-8", category: "Salad/Papad/Raita", name: "FRY PAPAD", nameGu: "ફ્રાય પાપડ", price: 20, image: "papad-raita.jpg", jain: true },
+      { id: "sal-9", category: "Salad/Papad/Raita", name: "MASALA PAPAD", nameGu: "મસાલા પાપડ", price: 30, image: "papad-raita.jpg", jain: true },
+      { id: "sal-10", category: "Salad/Papad/Raita", name: "CHEESE MASALA PAPAD", nameGu: "ચીઝ મસાલા પાપડ", price: 40, image: "papad-raita.jpg", bestseller: true, jain: true },
+
+      { id: "soup-1", category: "Soup", name: "CREAM OF TOMATO", nameGu: "ક્રીમ ઓફ ટોમેટો", price: 95, image: "soup.jpg", jain: true },
+      { id: "soup-2", category: "Soup", name: "VEG NOODLES", nameGu: "વેજ નૂડલ્સ સૂપ", price: 100, image: "soup.jpg", jain: false },
+      { id: "soup-3", category: "Soup", name: "VEG MANCHOW", nameGu: "વેજ મંચાવ સૂપ", price: 100, image: "soup.jpg", bestseller: true, jain: true },
+      { id: "soup-4", category: "Soup", name: "VEG HOT & SOUR", nameGu: "વેજ હોટ એન્ડ સોર", price: 100, image: "soup.jpg", jain: true },
+      { id: "soup-5", category: "Soup", name: "MUSHROOM", nameGu: "મશરૂમ સૂપ", price: 110, image: "soup.jpg", jain: false },
+
+      { id: "tan-1", category: "Tandoor Starter", portion: "Approx. 8 pcs", name: "PANEER TIKKA DRY", nameGu: "પનીર ટિક્કા ડ્રાય", price: 230, image: "paneer-tikka.jpg", bestseller: true, jain: true },
+      { id: "tan-2", category: "Tandoor Starter", portion: "Approx. 8 pcs", name: "LASANIYA TIKKA DRY", nameGu: "લસણીયા ટિક્કા ડ્રાય", price: 230, image: "paneer-tikka.jpg", jain: false },
+      { id: "tan-3", category: "Tandoor Starter", portion: "Approx. 8 pcs", name: "HARIYALI TIKKA DRY", nameGu: "હરિયાળી ટિક્કા ડ્રાય", price: 230, image: "paneer-tikka.jpg", jain: true },
+      { id: "tan-4", category: "Tandoor Starter", portion: "Approx. 8 pcs", name: "VEG HARA BHARA KABAB", nameGu: "વેજ હરા ભરા કબાબ", price: 200, image: "hara-bhara-kabab.jpg", bestseller: true, jain: true },
+
+      { id: "chi-1", category: "Chinese Starter", portion: "Approx. 300gm", name: "VEG MANCHURIAN (DRY/GRAVY)", nameGu: "વેજ મંચુરિયન (ડ્રાય/ગ્રેવી)", price: 140, image: "veg-manchurian.jpg", bestseller: true, jain: true },
+      { id: "chi-2", category: "Chinese Starter", portion: "Approx. 300gm", name: "VEG CRISPY", nameGu: "વેજ ક્રિસ્પી", price: 160, image: "veg-manchurian.jpg", jain: true },
+      { id: "chi-3", category: "Chinese Starter", portion: "6 pcs", name: "VEG LOLIPOP DRY (6 PCS)", nameGu: "વેજ લોલીપોપ ડ્રાય (૬ પીસ)", price: 170, image: "veg-manchurian.jpg", jain: false },
+      { id: "chi-4", category: "Chinese Starter", portion: "Approx. 300gm", name: "PANEER CHILLY (DRY/GRAVY)", nameGu: "પનીર ચીલી (ડ્રાય/ગ્રેવી)", price: 170, image: "paneer-tikka.jpg", bestseller: true, jain: true },
+      { id: "chi-5", category: "Chinese Starter", portion: "Approx. 300gm", name: "PANEER 65 DRY", nameGu: "પનીર ૬૫ ડ્રાય", price: 170, image: "paneer-tikka.jpg", jain: false },
+      { id: "chi-6", category: "Chinese Starter", portion: "Approx. 300gm", name: "PANEER CRISPY", nameGu: "પનીર ક્રિસ્પી", price: 180, image: "paneer-tikka.jpg", jain: true },
+      { id: "chi-7", category: "Chinese Starter", portion: "Approx. 300gm", name: "MUSHROOM CHILLY DRY", nameGu: "મશરૂમ ચીલી ડ્રાય", price: 180, image: "veg-manchurian.jpg", jain: false },
+
+      { id: "crn-1", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "VEG HAKKA NOODLES", nameGu: "વેજ હક્કા નૂડલ્સ", price: 130, image: "hakka-noodles.jpg", bestseller: true, jain: true },
+      { id: "crn-2", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "VEG SCHEZWAN NOODLES", nameGu: "વેજ સેઝવાન નૂડલ્સ", price: 140, image: "hakka-noodles.jpg", jain: true },
+      { id: "crn-3", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "VEG MUSHROOM NOODLES", nameGu: "વેજ મશરૂમ નૂડલ્સ", price: 160, image: "hakka-noodles.jpg", jain: false },
+      { id: "crn-4", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "VEG MANCHURIAN NOODLES", nameGu: "વેજ મંચુરિયન નૂડલ્સ", price: 160, image: "hakka-noodles.jpg", jain: true },
+      { id: "crn-5", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "VEG FRIED RICE", nameGu: "વેજ ફ્રાયડ રાઇસ", price: 130, image: "fried-rice.jpg", jain: true },
+      { id: "crn-6", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "VEG SCHEZWAN FRIED RICE", nameGu: "વેજ સેઝવાન ફ્રાયડ રાઇસ", price: 140, image: "fried-rice.jpg", jain: true },
+      { id: "crn-7", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "MANCHURIAN FRIED RICE", nameGu: "મંચુરિયન ફ્રાયડ રાઇસ", price: 150, image: "fried-rice.jpg", bestseller: true, jain: true },
+      { id: "crn-8", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "MUSHROOM FRIED RICE", nameGu: "મશરૂમ ફ્રાયડ રાઇસ", price: 150, image: "fried-rice.jpg", jain: false },
+      { id: "crn-9", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "MEXICAN FRIED RICE", nameGu: "મેક્સિકન ફ્રાયડ રાઇસ", price: 160, image: "fried-rice.jpg", jain: true },
+      { id: "crn-10", category: "Chinese Rice & Noodles", portion: "Approx. 300gm", name: "CHINESE BHEL", nameGu: "ચાઇનીઝ ભેળ", price: 130, image: "hakka-noodles.jpg", jain: true },
+
+      { id: "dal-1", category: "Dal Preparation", portion: "Approx. 300gm", name: "DAL FRY", nameGu: "દાળ ફ્રાય", price: 90, image: "dal-tadka.jpg", jain: true },
+      { id: "dal-2", category: "Dal Preparation", portion: "Approx. 300gm", name: "DAL FRY BUTTER", nameGu: "દાળ ફ્રાય બટર", price: 95, image: "dal-tadka.jpg", jain: true },
+      { id: "dal-3", category: "Dal Preparation", portion: "Approx. 300gm", name: "DAL TADKA", nameGu: "દાળ તડકા", price: 100, image: "dal-tadka.jpg", bestseller: true, jain: true },
+      { id: "dal-4", category: "Dal Preparation", portion: "Approx. 300gm", name: "DAL PALAK", nameGu: "દાળ પાલક", price: 100, image: "dal-tadka.jpg", jain: false },
+
+      { id: "bas-1", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "SP. SURBHI PULAV", nameGu: "સ્પેશિયલ સુરભી પુલાવ", price: 170, image: "surbhi-pulav.jpg", bestseller: true, jain: true },
+      { id: "bas-2", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "SP. KAJU PULAV", nameGu: "સ્પેશિયલ કાજુ પુલાવ", price: 160, image: "surbhi-pulav.jpg", bestseller: true, jain: true },
+      { id: "bas-3", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "PANEER PULAV", nameGu: "પનીર પુલાવ", price: 150, image: "surbhi-pulav.jpg", jain: true },
+      { id: "bas-4", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "GREEN PEAS PULAV", nameGu: "ગ્રીન પીસ પુલાવ", price: 120, image: "surbhi-pulav.jpg", jain: true },
+      { id: "bas-5", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "VEG PULAV", nameGu: "વેજ પુલાવ", price: 130, image: "surbhi-pulav.jpg", jain: true },
+      { id: "bas-6", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "KASHMIRI PULAV (SWEET)", nameGu: "કાશ્મીરી પુલાવ (મીઠો)", price: 130, image: "surbhi-pulav.jpg", jain: true },
+      { id: "bas-7", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "VEG BIRYANI", nameGu: "વેજ બિરયાની", price: 130, image: "veg-biryani.jpg", jain: true },
+      { id: "bas-8", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "VEG HYDERABADI BIRYANI", nameGu: "વેજ હૈદરાબાદી બિરયાની", price: 140, image: "veg-biryani.jpg", bestseller: true, jain: true },
+      { id: "bas-9", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "VEG HANDI BIRYANI", nameGu: "વેજ હાંડી બિરયાની", price: 150, image: "veg-biryani.jpg", jain: true },
+      { id: "bas-10", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "MASALA RICE", nameGu: "મસાલા રાઇસ", price: 110, image: "fried-rice.jpg", jain: true },
+      { id: "bas-11", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "JEERA RICE", nameGu: "જીરા રાઇસ", price: 80, image: "fried-rice.jpg", jain: true },
+      { id: "bas-12", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "PLAIN RICE", nameGu: "પ્લેન રાઇસ", price: 70, image: "fried-rice.jpg", jain: true },
+      { id: "bas-13", category: "Basmati Ki Khusboo", portion: "Approx. 300gm", name: "DAL KHICHDI", nameGu: "દાળ ખીચડી", price: 100, image: "dal-tadka.jpg", bestseller: true, jain: true }
+    ];
+
+    // Custom Architectural Night SVG Recreation of your uploaded Surbhi Restaurant Building (Shown underneath if local file isn't in same folder yet)
+    function createSurbhiNightHeroSVG() {
+      return `
+        <svg viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#050403"/>
+              <stop offset="60%" stop-color="#120D08"/>
+              <stop offset="100%" stop-color="#19120B"/>
+            </linearGradient>
+            <radialGradient id="fairyGlow" cx="62%" cy="42%" r="48%">
+              <stop offset="0%" stop-color="rgba(235, 195, 105, 0.36)"/>
+              <stop offset="60%" stop-color="rgba(180, 125, 45, 0.12)"/>
+              <stop offset="100%" stop-color="transparent"/>
+            </radialGradient>
+            <pattern id="fairyLights" width="22" height="24" patternUnits="userSpaceOnUse">
+              <circle cx="6" cy="6" r="1.7" fill="#FFE89E" opacity="0.9"/>
+              <circle cx="16" cy="14" r="1.4" fill="#E5B95C" opacity="0.75"/>
+              <circle cx="10" cy="21" r="1.5" fill="#FFF4C8" opacity="0.85"/>
+            </pattern>
+          </defs>
+          <rect width="1200" height="800" fill="url(#nightSky)"/>
+          <rect width="1200" height="800" fill="url(#fairyGlow)"/>
+
+          <!-- 3D Perspective Corner Building Matching IMG_20261031_135910.jpg -->
+          <g transform="translate(80, 40)">
+            <!-- Upper Fairy-Light Draped Facade Left & Right Wings -->
+            <polygon points="120,290 560,90 560,295 120,425" fill="#1A120B" stroke="#C9A24B" stroke-width="1.5"/>
+            <polygon points="560,90 1040,310 1040,455 560,295" fill="#160F09" stroke="#C9A24B" stroke-width="1.5"/>
+            <!-- Cascading Golden Fairy Light Curtains -->
+            <polygon points="120,290 560,90 560,295 120,425" fill="url(#fairyLights)"/>
+            <polygon points="560,90 1040,310 1040,455 560,295" fill="url(#fairyLights)"/>
+
+            <!-- Glowing English Signage: "Surbhi Restaurant" -->
+            <text x="335" y="235" transform="skewY(-19)" fill="#FFF5D6" font-family="Playfair Display, serif" font-weight="700" font-size="34" text-anchor="middle" filter="drop-shadow(0 0 10px #E5C158)">✦ Surbhi Restaurant</text>
+            <text x="790" y="135" transform="skewY(20)" fill="#FFF5D6" font-family="Playfair Display, serif" font-weight="700" font-size="34" text-anchor="middle" filter="drop-shadow(0 0 10px #E5C158)">✦ Surbhi Restaurant</text>
+
+            <!-- Glass Dining Floor Windows with Warm Chandelier Interior -->
+            <polygon points="130,430 545,305 545,485 130,550" fill="rgba(245, 215, 145, 0.22)" stroke="#3A2818" stroke-width="8"/>
+            <polygon points="575,305 1025,460 1025,585 575,485" fill="rgba(245, 215, 145, 0.18)" stroke="#3A2818" stroke-width="8"/>
+
+            <!-- Lower Black Fascia Board with Gujarati Signage & Green Pure Veg Symbol -->
+            <polygon points="100,555 560,485 560,605 100,650" fill="#0B0908" stroke="#D4AF5A" stroke-width="1"/>
+            <polygon points="560,485 1050,590 1050,685 560,605" fill="#090706" stroke="#D4AF5A" stroke-width="1"/>
+
+            <text x="315" y="618" transform="skewY(-7)" fill="#FFF3C4" font-family="Noto Sans Gujarati, sans-serif" font-weight="700" font-size="34" text-anchor="middle">સુરભી રેસ્ટોરેન્ટ</text>
+            <rect x="455" y="520" width="34" height="38" fill="#FFF" stroke="#22C55E" stroke-width="3"/>
+            <circle cx="472" cy="539" r="10" fill="#22C55E"/>
+
+            <text x="800" y="555" transform="skewY(9)" fill="#FFF3C4" font-family="Noto Sans Gujarati, sans-serif" font-weight="700" font-size="34" text-anchor="middle">સુરભી રેસ્ટોરેન્ટ</text>
+          </g>
+        </svg>
+      `;
+    }
+
+    // Build Hero Background (Tries saved uploaded photo -> IMG_20261031_135910.jpg -> /assets/images/hero-exterior.jpg -> Night Building SVG)
+    function renderHeroExterior() {
+      const savedHero = localStorage.getItem("surbhi_custom_hero_img");
+      const container = document.getElementById("hero-bg-container");
+      const svgBackdrop = createSurbhiNightHeroSVG();
+
+      if (savedHero) {
+        container.innerHTML = `<img src="${savedHero}" alt="Surbhi Restaurant Night Exterior" />`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div style="width:100%; height:100%; position:relative;">
+          ${svgBackdrop}
+          <img src="IMG_20261031_135910.jpg"
+               alt="Surbhi Restaurant Night Exterior"
+               style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:68% 35%; opacity:0; transition:opacity 0.5s;"
+               onload="this.style.opacity=1"
+               onerror="this.onerror=function(){this.src='https://image.pollinations.ai/prompt/' + encodeURIComponent(AI_IMAGE_PROMPTS['hero-exterior.jpg']) + '?width=1280&height=720&nologo=true&seed=15';}; this.src='/assets/images/hero-exterior.jpg';" />
+        </div>
+      `;
+    }
+
+    // Build AI-Generated Image + Local Asset Support for All Dish & Interior Cards
+    function createLuxuryGraphic(fileName, seedOffset = 1) {
+      const prompt = AI_IMAGE_PROMPTS[fileName] || "luxury Indian pure vegetarian fine dining dish on dark slate plate, warm golden lighting";
+      const aiUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=600&height=600&nologo=true&seed=${seedOffset + 42}`;
+
+      // Rich instant SVG placeholder underneath while AI photo or local /assets/images/ file loads
+      const isLassi = fileName.includes('lassi');
+      const fallbackSvg = `
+        <svg viewBox="0 0 300 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="g-${seedOffset}" cx="50%" cy="45%" r="60%">
+              <stop offset="0%" stop-color="#5E3A21"/>
+              <stop offset="60%" stop-color="#24150B"/>
+              <stop offset="100%" stop-color="#110B07"/>
+            </radialGradient>
+          </defs>
+          <rect width="300" height="300" fill="url(#g-${seedOffset})"/>
+          ${isLassi ? `
+            <path d="M110 95 L190 95 L176 235 C172 250, 128 250, 124 235 Z" fill="#F6EFE4" stroke="#D4AF5A" stroke-width="3"/>
+          ` : `
+            <ellipse cx="150" cy="180" rx="95" ry="52" fill="#17110D" stroke="#D4AF5A" stroke-width="2"/>
+            <circle cx="135" cy="170" r="18" fill="#D97706" opacity="0.8"/>
+            <circle cx="168" cy="168" r="19" fill="#B45309" opacity="0.8"/>
+            <circle cx="150" cy="166" r="6" fill="#22C55E"/>
+          `}
+        </svg>
+      `;
+
+      return `
+        <div style="width:100%; height:100%; position:relative; background:#1B120C; overflow:hidden;">
+          ${fallbackSvg}
+          <img src="/assets/images/${fileName}"
+               alt="${fileName.replace('.jpg', '')}"
+               loading="lazy"
+               style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity 0.45s ease, transform 0.6s ease;"
+               onload="this.style.opacity=1"
+               onerror="if(!this.dataset.aiTried){this.dataset.aiTried='1'; this.src='${aiUrl}';}" />
+        </div>
+      `;
+    }
+
+    // State
+    let activeCategory = "All Menu";
+    let searchQuery = "";
+    let sortMode = "asc";
+    let filterUnder100 = false;
+    let filterBestseller = false;
+    let filterJain = false;
+    let cart = {};
+    let selectedPayment = "Cash on Delivery (COD)";
+    let storyIdx = 0;
+
+    const STORIES = [
+      { title: "WE'D LOVE TO HEAR ABOUT YOUR VISIT.", text: "Visited Surbhi for lunch or dinner? Share your experience on Google and help fellow pure-veg lovers in Surat discover us." },
+      { title: "A ROYAL PURE-VEG EXPERIENCE IN DINDOLI.", text: "From Sp. Surbhi Pulav and smoky Paneer Tikka Dry to comforting Dal Tadka, every plate is crafted fresh for family gatherings." }
+    ];
+
+    window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        const loader = document.getElementById("intro-loader");
+        if (loader) loader.classList.add("open");
+      }, 900);
+      setTimeout(() => {
+        const loader = document.getElementById("intro-loader");
+        if (loader) loader.style.display = "none";
+      }, 1800);
+
+      renderHeroExterior();
+      document.getElementById("about-img-ceiling").innerHTML = createLuxuryGraphic("interior-ceiling.jpg", 101);
+      document.getElementById("about-img-chef").innerHTML = createLuxuryGraphic("about-chef.jpg", 102);
+
+      // Allow instant selection of IMG_20261031_135910.jpg from user device
+      document.getElementById("hero-file-input").addEventListener("change", (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          try {
+            localStorage.setItem("surbhi_custom_hero_img", ev.target.result);
+          } catch (err) {}
+          document.getElementById("hero-bg-container").innerHTML = `<img src="${ev.target.result}" alt="Surbhi Restaurant Exterior" />`;
+        };
+        reader.readAsDataURL(file);
+      });
+
+      const hr = new Date().getHours();
+      const statusText = (hr >= 11 && hr < 16)
+        ? "Open Now · Closes at 4 PM"
+        : (hr >= 18 && hr < 23)
+          ? "Open Now · Closes at 11 PM"
+          : "Open Today · 11 AM–4 PM & 6 PM–11 PM";
+      document.querySelectorAll(".live-status-text").forEach(el => el.textContent = statusText);
+
+      renderSpecials();
+      renderCategories();
+      renderMenu();
+      renderGallery();
+
+      document.getElementById("menu-toggle-btn").addEventListener("click", () => {
+        document.getElementById("nav-drawer").classList.toggle("active");
+      });
+
+      document.getElementById("theme-btn").addEventListener("click", () => {
+        document.documentElement.classList.toggle("light");
+      });
+
+      document.getElementById("lang-btn").addEventListener("click", (e) => {
+        const isGu = e.target.textContent === "EN";
+        e.target.textContent = isGu ? "ગુજ" : "EN";
+        document.getElementById("hero-sub").textContent = isGu
+          ? "A Royal Pure Veg Dining Experience"
+          : "શાહી શુદ્ધ શાકાહારી ફેમિલી રેસ્ટોરન્ટ";
+      });
+
+      document.getElementById("menu-search").addEventListener("input", (e) => {
+        searchQuery = e.target.value;
+        renderMenu();
+      });
+
+      document.getElementById("menu-sort").addEventListener("change", (e) => {
+        sortMode = e.target.value;
+        renderMenu();
+      });
+
+      document.getElementById("chip-under100").addEventListener("click", (e) => {
+        filterUnder100 = !filterUnder100;
+        e.target.classList.toggle("active", filterUnder100);
+        renderMenu();
+      });
+
+      document.getElementById("chip-bestseller").addEventListener("click", (e) => {
+        filterBestseller = !filterBestseller;
+        e.target.classList.toggle("active", filterBestseller);
+        renderMenu();
+      });
+
+      document.getElementById("chip-jain").addEventListener("click", (e) => {
+        filterJain = !filterJain;
+        e.target.classList.toggle("active", filterJain);
+        renderMenu();
+      });
+
+      document.getElementById("note-toggle").addEventListener("click", () => {
+        const body = document.getElementById("note-body");
+        const open = body.style.display === "block";
+        body.style.display = open ? "none" : "block";
+        document.getElementById("note-arrow").textContent = open ? "▾" : "▴";
+      });
+
+      document.getElementById("reserve-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("res-name").value;
+        const phone = document.getElementById("res-phone").value;
+        const date = document.getElementById("res-date").value || "Today";
+        const guests = document.getElementById("res-guests").value;
+        const time = document.getElementById("res-time").value || "Dinner";
+        const msg = `👑 *Table Reservation Request — Surbhi Restaurant*\n\n• *Name:* ${name}\n• *Phone:* ${phone}\n• *Date:* ${date}\n• *Time:* ${time}\n• *Guests:* ${guests}\n\n📍 Navagam Dindoli, Surat`;
+        window.open(`https://wa.me/${PHONE_RAW}?text=${encodeURIComponent(msg)}`, "_blank");
+      });
+
+      document.getElementById("checkout-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+        sendPrefilledCheckoutWhatsApp();
+      });
+    });
+
+    function getCartTotals() {
+      const entries = Object.entries(cart);
+      let subtotal = 0;
+      let itemCount = 0;
+      entries.forEach(([id, qty]) => {
+        const d = MENU_ITEMS.find(m => m.id === id);
+        if (d) {
+          subtotal += (d.price || 0) * qty;
+          itemCount += qty;
+        }
+      });
+      const deliveryCharge = (itemCount > 0 && subtotal < FREE_DELIVERY_THRESHOLD) ? DELIVERY_CHARGE_AMOUNT : 0;
+      const grandTotal = subtotal + deliveryCharge;
+      return { entries, subtotal, itemCount, deliveryCharge, grandTotal };
+    }
+
+    function renderSpecials() {
+      const specials = [
+        { id: "bas-1", badge: "BESTSELLER", name: "SP. SURBHI PULAV", nameGu: "સ્પેશિયલ સુરભી પુલાવ", price: 170, image: "surbhi-pulav.jpg" },
+        { id: "tan-1", badge: "MUST TRY", name: "PANEER TIKKA DRY", nameGu: "પનીર ટિક્કા ડ્રાય", price: 230, image: "paneer-tikka.jpg" },
+        { id: "bas-8", badge: "MUST TRY", name: "VEG HYDERABADI BIRYANI", nameGu: "વેજ હૈદરાબાદી બિરયાની", price: 140, image: "veg-biryani.jpg" },
+        { id: "app-1", badge: "BESTSELLER", name: "SP. LASSI", nameGu: "સ્પેશિયલ લસ્સી", price: 80, image: "sp-lassi.jpg" }
+      ];
+      document.getElementById("specials-container").innerHTML = specials.map((sp, i) => `
+        <div class="editorial-card special-card" onclick="modifyCart('${sp.id}', 1)">
+          <div style="aspect-ratio:1/1; position:relative; overflow:hidden;">
+            ${createLuxuryGraphic(sp.image, 200 + i)}
+            <span class="badge-tag">${sp.badge}</span>
+          </div>
+          <div style="padding:14px;">
+            <h3 class="font-serif" style="font-size:15px; text-transform:uppercase;">${sp.name}</h3>
+            <p style="font-size:12px; color:var(--gold); margin-top:4px;">₹${sp.price} <span style="color:var(--text-muted);">· ${sp.nameGu}</span></p>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function scrollSpecials(dir) {
+      document.getElementById("specials-container").scrollBy({ left: dir * 260, behavior: "smooth" });
+    }
+
+    function renderCategories() {
+      const cats = ["All Menu", ...new Set(MENU_ITEMS.map(i => i.category))];
+      document.getElementById("category-tabs").innerHTML = cats.map(c => `
+        <button type="button" class="cat-tab ${c === activeCategory ? 'active' : ''}" onclick="selectCategory('${c}')">${c}</button>
+      `).join("");
+    }
+
+    function selectCategory(cat) {
+      activeCategory = cat;
+      renderCategories();
+      renderMenu();
+    }
+
+    function renderMenu() {
+      const filtered = MENU_ITEMS.filter(item => {
+        if (activeCategory !== "All Menu" && item.category !== activeCategory) return false;
+        if (filterUnder100 && (item.price === null || item.price >= 100)) return false;
+        if (filterBestseller && !item.bestseller) return false;
+        if (filterJain && !item.jain) return false;
+        if (searchQuery.trim()) {
+          const q = searchQuery.toLowerCase();
+          if (!item.name.toLowerCase().includes(q) && !item.nameGu.includes(q)) return false;
+        }
+        return true;
+      }).sort((a, b) => {
+        if (sortMode === "asc") return (a.price ?? 999) - (b.price ?? 999);
+        if (sortMode === "desc") return (b.price ?? 0) - (a.price ?? 0);
+        return 0;
+      });
+
+      document.getElementById("menu-list").innerHTML = filtered.map((dish, idx) => {
+        const qty = cart[dish.id] || 0;
+        return `
+          <div class="menu-row">
+            <div class="menu-thumb">
+              ${createLuxuryGraphic(dish.image, idx + 1)}
+              ${dish.bestseller ? `<span style="position:absolute; top:4px; left:4px; background:var(--gold); color:#14100D; font-size:8px; font-weight:700; padding:2px 4px; z-index:4;">BESTSELLER</span>` : ''}
+            </div>
+            <div class="menu-info">
+              <div class="menu-name">${dish.name}</div>
+              <div class="menu-gu">
+                <span>${dish.nameGu}</span>
+                <span class="veg-icon"></span>
+              </div>
+              <div class="menu-price">${dish.price !== null ? '₹' + dish.price : dish.priceLabel}</div>
+              ${dish.portion ? `<div class="menu-portion">${dish.portion}</div>` : ''}
+            </div>
+            <div class="menu-actions">
+              <span style="color:var(--text-muted); font-size:14px;">♡</span>
+              ${qty === 0 ? `
+                <button type="button" class="add-btn" onclick="modifyCart('${dish.id}', 1)">+ ADD TO ORDER</button>
+              ` : `
+                <div class="qty-control">
+                  <button type="button" onclick="modifyCart('${dish.id}', -1)">−</button>
+                  <span style="padding:0 6px;">${qty}</span>
+                  <button type="button" onclick="modifyCart('${dish.id}', 1)">+</button>
+                </div>
+              `}
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function modifyCart(id, delta) {
+      const next = (cart[id] || 0) + delta;
+      if (next <= 0) delete cart[id];
+      else cart[id] = next;
+      updateCartCounters();
+      renderMenu();
+      renderCartModalBody();
+    }
+
+    function updateCartCounters() {
+      const { itemCount } = getCartTotals();
+      const badge = document.getElementById("fab-cart-count");
+      const waLabel = document.getElementById("bottom-wa-label");
+      if (itemCount > 0) {
+        badge.style.display = "flex";
+        badge.textContent = itemCount;
+        waLabel.textContent = `Cart (${itemCount})`;
+      } else {
+        badge.style.display = "none";
+        waLabel.textContent = "WhatsApp";
+      }
+    }
+
+    function openCartModal() {
+      backToCartStep();
+      renderCartModalBody();
+      document.getElementById("cart-modal").classList.add("open");
+    }
+
+    function closeCartModal() {
+      document.getElementById("cart-modal").classList.remove("open");
+    }
+
+    function backToCartStep() {
+      document.getElementById("cart-step-1").style.display = "block";
+      document.getElementById("cart-step-2").style.display = "none";
+      document.getElementById("modal-step-eyebrow").textContent = "STEP 1 OF 2 · REVIEW TRAY";
+      document.getElementById("modal-step-title").textContent = "YOUR ORDER CART";
+    }
+
+    function goToCheckoutStep() {
+      const { itemCount, subtotal, deliveryCharge, grandTotal } = getCartTotals();
+      if (itemCount === 0) return;
+
+      document.getElementById("chk-item-count").textContent = itemCount;
+      document.getElementById("chk-subtotal").textContent = "₹" + subtotal;
+      document.getElementById("chk-delivery").textContent = deliveryCharge === 0 ? "FREE" : "₹" + deliveryCharge;
+      document.getElementById("chk-grand-total").textContent = "₹" + grandTotal;
+
+      document.getElementById("cart-step-1").style.display = "none";
+      document.getElementById("cart-step-2").style.display = "block";
+      document.getElementById("modal-step-eyebrow").textContent = "STEP 2 OF 2 · DELIVERY & PAYMENT";
+      document.getElementById("modal-step-title").textContent = "CHECKOUT DETAILS";
+    }
+
+    function selectPaymentMode(mode) {
+      selectedPayment = mode;
+      const codLabel = document.getElementById("pay-label-cod");
+      const upiLabel = document.getElementById("pay-label-upi");
+      if (mode.includes("COD")) {
+        codLabel.classList.add("selected");
+        upiLabel.classList.remove("selected");
+      } else {
+        upiLabel.classList.add("selected");
+        codLabel.classList.remove("selected");
+      }
+    }
+
+    function renderCartModalBody() {
+      const { entries, subtotal, deliveryCharge, grandTotal } = getCartTotals();
+      const body = document.getElementById("cart-items-body");
+      const footer = document.getElementById("cart-step-1-footer");
+      const banner = document.getElementById("cart-delivery-banner");
+
+      if (entries.length === 0) {
+        body.innerHTML = `
+          <div style="text-align:center; padding:32px 10px;">
+            <p style="font-size:13px; color:var(--text-main); margin-bottom:6px;">Your order cart is empty.</p>
+            <p style="font-size:11px; color:var(--text-muted); margin-bottom:16px;">Tap <strong>+ ADD TO ORDER</strong> on any dish from the menu to start building your meal.</p>
+            <a href="#menu" onclick="closeCartModal()" class="btn-outline" style="padding:9px 16px;">BROWSE MENU</a>
+          </div>
+        `;
+        footer.style.display = "none";
+        return;
+      }
+
+      footer.style.display = "block";
+
+      if (subtotal < FREE_DELIVERY_THRESHOLD) {
+        const diff = FREE_DELIVERY_THRESHOLD - subtotal;
+        banner.className = "delivery-banner";
+        banner.innerHTML = `
+          <span>🛵 Add <strong>₹${diff}</strong> more for <strong>FREE Delivery</strong></span>
+          <span class="gold-text">+₹${DELIVERY_CHARGE_AMOUNT} Fee</span>
+        `;
+      } else {
+        banner.className = "delivery-banner free";
+        banner.innerHTML = `
+          <span>🎉 <strong>FREE Delivery Unlocked!</strong> (Order ₹499+)</span>
+          <span>₹0 Fee</span>
+        `;
+      }
+
+      body.innerHTML = entries.map(([id, qty]) => {
+        const dish = MENU_ITEMS.find(m => m.id === id);
+        if (!dish) return "";
+        const lineTotal = dish.price ? `₹${dish.price * qty}` : "MRP";
+        return `
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid rgba(212,175,90,0.12);">
+            <div style="padding-right:10px;">
+              <div class="font-serif" style="font-size:13px; text-transform:uppercase;">${dish.name}</div>
+              <div style="font-size:11px; color:var(--text-muted);">${dish.nameGu}</div>
+              <div style="font-size:12px; color:var(--gold); font-weight:600; margin-top:2px;">${lineTotal}</div>
+            </div>
+            <div class="qty-control">
+              <button type="button" onclick="modifyCart('${dish.id}', -1)">−</button>
+              <span style="padding:0 6px;">${qty}</span>
+              <button type="button" onclick="modifyCart('${dish.id}', 1)">+</button>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      document.getElementById("cart-subtotal-price").textContent = "₹" + subtotal;
+      document.getElementById("cart-delivery-price").textContent = deliveryCharge === 0 ? "FREE (₹0)" : "₹" + deliveryCharge;
+      document.getElementById("cart-grand-total").textContent = "₹" + grandTotal;
+    }
+
+    function sendPrefilledCheckoutWhatsApp() {
+      const { entries, subtotal, deliveryCharge, grandTotal } = getCartTotals();
+      if (entries.length === 0) return;
+
+      const customerName = document.getElementById("chk-name").value.trim();
+      const customerPhone = document.getElementById("chk-phone").value.trim();
+      const customerAddress = document.getElementById("chk-address").value.trim();
+
+      const itemLines = entries.map(([id, qty], idx) => {
+        const d = MENU_ITEMS.find(m => m.id === id);
+        const linePrice = d.price ? `₹${d.price * qty}` : "MRP";
+        return `${idx + 1}. ${d.name} (${d.nameGu}) x ${qty} = ${linePrice}`;
+      });
+
+      const deliveryLine = deliveryCharge > 0
+        ? `₹${deliveryCharge} (Orders below ₹499)`
+        : `FREE (Order ₹499+)`;
+
+      const message =
+        `🙏 *NEW ORDER — SURBHI RESTAURANT*\n\n` +
+        `👤 *Customer Name:* ${customerName}\n` +
+        (customerPhone ? `📞 *Phone:* ${customerPhone}\n` : ``) +
+        `📍 *Delivery Address:* ${customerAddress}\n` +
+        `💳 *Payment Mode:* ${selectedPayment}\n\n` +
+        `🍽️ *ORDER ITEMS:*\n` +
+        itemLines.join("\n") +
+        `\n\n────────────────────\n` +
+        `• *Items Subtotal:* ₹${subtotal}\n` +
+        `• *Delivery Charge:* ${deliveryLine}\n` +
+        `💰 *GRAND TOTAL: ₹${grandTotal}*\n` +
+        `────────────────────\n` +
+        `Please confirm my order!`;
+
+      window.open(`https://wa.me/${PHONE_RAW}?text=${encodeURIComponent(message)}`, "_blank");
+    }
+
+    function handleOrderButtonClick() {
+      const { itemCount } = getCartTotals();
+      if (itemCount > 0) {
+        openCartModal();
+      } else {
+        document.getElementById("menu").scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    function renderGallery() {
+      const list = [
+        { fileName: "paneer-tikka.jpg", label: "PANEER TIKKA" },
+        { fileName: "fried-rice.jpg", label: "VEG FRIED RICE" },
+        { fileName: "hara-bhara-kabab.jpg", label: "HARA BHARA KABAB" },
+        { fileName: "soup.jpg", label: "CREAM OF TOMATO SOUP" },
+        { fileName: "veg-biryani.jpg", label: "VEG HYDERABADI BIRYANI" },
+        { fileName: "sp-lassi.jpg", label: "SP. LASSI" },
+        { fileName: "surbhi-pulav.jpg", label: "SP. SURBHI PULAV" },
+        { fileName: "papad-raita.jpg", label: "PAPAD & RAITA" },
+        { fileName: "thali-spread.jpg", label: "PURE VEGETARIAN THALI" },
+        { fileName: "interior-ceiling.jpg", label: "WARM DINING AMBIENCE" }
+      ];
+      document.getElementById("gallery-grid").innerHTML = list.map((g, i) => `
+        <div class="gallery-item">
+          ${createLuxuryGraphic(g.fileName, 300 + i)}
+          <div class="gallery-caption">${g.label}</div>
+        </div>
+      `).join("");
+    }
+
+    function changeStory(dir) {
+      storyIdx = (storyIdx + dir + STORIES.length) % STORIES.length;
+      document.getElementById("story-title").textContent = STORIES[storyIdx].title;
+      document.getElementById("story-text").textContent = STORIES[storyIdx].text;
+    }
+  </script>
+</body>
+</html>
